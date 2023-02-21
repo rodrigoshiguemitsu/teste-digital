@@ -9,8 +9,8 @@ html, body {
 * {
     box-sizing: border-box;
 }
-section{
-    
+section {
+    display: -webkit-flex;/* para safari ou opera*/
     display: flex; /*para suporte nativo*/
 }
 article {
