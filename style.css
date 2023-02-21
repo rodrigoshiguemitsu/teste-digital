@@ -14,7 +14,7 @@ section {
     display: flex; /*para suporte nativo*/
 }
 article {
-    border: 1px solid black;
+    border: 4px solid black;
     margin: 0.4rem;
     padding: 0.3 rem 0.6 rem;
 }
@@ -128,7 +128,7 @@ h3 {
 }
 
 .lachonetes {
-max-width: 75rem; margin: 0 auto;
+    max-width: 75rem; margin: 0 auto;
 }
 
 
