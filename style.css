@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@media screen and ( min-width: 992px) and ( max-width: 1200px){ /*Desktop*/
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -66,7 +64,8 @@ nav a {
     width: 15%;
 }
 
-#carimgdesk{
+
+#deskimg {
     max-width: 100vw;
      width: 998px;
      height: 400px;
@@ -77,22 +76,22 @@ nav a {
      
 }
 
-#carimgdesk ul{
+#deskimg ul{
     max-width: 100vw;
     display: flex;
     list-style: none;
     height: 225px;
 }
  
-#carimgdesk li img{
+#deskimg ul li img{
     width: 100vw;
     position: relative;
     animation: slide 15s infinite ease-out;
 }
 
-main #imgphonecar {display: none;}
-main #imgphonecar ul{display: none;}
-main #imgphonecar li img{display: none;}
+main #phoneimg {display: none;}
+main #phoneimg ul{display: none;}
+main #phoneimg li img{display: none;}
  
 @keyframes slide{
     0%{left: 0px;}
@@ -395,5 +394,4 @@ h3 {
 .marmitas li {
     position:relative;
     margin: 10px;
-}
 }
