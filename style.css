@@ -1,43 +1,68 @@
 @charset "UTF-8";
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background: red;
+    background:white
 }
-header img{
-    width: 98vw;
-    
+
+header input{
+    width:50%;
+    display:absolute;
+    text-align: center;
 }
+header a {
+    background-color:rgba(0, 0, 0, 0.596);
+    margin: 0px;
+    padding: 0px;
+}
+header p a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: bold;
+    font-size: 1.5rem;
+}
+
+header p a:hover{
+    background-color: black;
+    color: white;
+}
+
+header #capa img{
+    width: 100vw;
+    height: 430px;
+}
+
 nav {
-    background-color: rgba(255, 0, 0, 0.596);
+    background-color:white;
     padding: 2px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.479);
 
 }
+
 nav a {
-    
     text-decoration: none;
-    color:red;
+    color:black;
     margin-right: 20px;
 }
+
 i#burguer {
-    background-color:rgba(255, 0, 0, 0.596);
-    color: yellow;
+    background-color:black;
+    color: white;
     display:block;
     text-align:center;
     padding: 0px;
     cursor: pointer;
-    margin-top: -4px;
-    margin-right: -7px;
+    margin-top: 2px;
+    margin-right: -4px;
     padding: 10px;
-    
-   
-    
 }
+
 i#burguer:hover{
-    background-color: yellow;
-    color: red;
+    background-color:black;
+    color:white;
 }
 
 nav  {
@@ -49,8 +74,8 @@ nav a {
     padding: 10px;
     text-decoration: none;
     text-align:left;
-    background-color: yellow;
-    color: red;
+    background-color: black;
+    color:white;
     border-top: 2px solid rgba(0, 0, 0, 0.685);
     width: 95vw;
 }
@@ -58,13 +83,12 @@ nav a {
 .nav a {
     margin:5px;
     width: 15%;
-
 }
 
 .carrossel{
     max-width: 100vw;
-     width: 95vw;
-     height: 500px;
+     width: 998px;
+     height: 400px;
      /*outline: 3px solid black;*/
      overflow: hidden;
      margin: auto;
@@ -79,6 +103,7 @@ nav a {
 }
  
 .carrossel li{
+    width: 100vw;
     position: relative;
     animation: slide 15s infinite ease-out;
 }
@@ -86,39 +111,50 @@ nav a {
 @keyframes slide{
     0%{left: 0px;}
     20%{left: 0px;}
-    
-    30%{left: -400px;}
-    50%{left: -400px;}
- 
-    60%{left: -800px;}
-    90%{left: -800px;}
- 
+    30%{left: -1040px;}
+    50%{left: -1040px;}
+    60%{left: -2050px;}
+    90%{left: -2050px;} 
     100%{left: 0%;}
 }
 
 h3 {
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     display: block;
     text-align: center;
     font-size: 2em;
     text-shadow: 1px 1px 1px 3px;
-    background-color: yellow;
+    background-color:black;
     color: red;
     width: 95vw;
 }
 
+/*Barra de rolagem*/
+::-webkit-scrollbar{
+    height: 6px;
+    width: 0px;
+}
+
+/*Trilha de progresso da barra de rolagem*/
+::-webkit-scrollbar-track {
+    background-color: gray;
+}
+
+/*alça de rolagem arrastável*/
+::-webkit-scrollbar-thumb {
+    background-color: brown;
+}
 
 .lanchonetes {
     max-width: 100vw;
     height: 250px;
     width: 95vw;
-    background-color: blue;
+    background-color:rgba(0, 0, 0, 0.829);
     margin:auto;
-    overflow:scroll;
-    padding: 0px;
-    
+    overflow-y:hidden;
+    padding: 0px;    
 }
 
 .lanchonetes ul{
@@ -128,6 +164,7 @@ h3 {
     height: 240px;
     margin:10px;
 }
+
 .lanchonetes li {
     position:relative;
     margin: 10px;
