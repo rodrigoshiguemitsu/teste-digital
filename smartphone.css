@@ -88,12 +88,12 @@
     main .imgphonecar li{
         width: 100vw;
         position: relative;
-        animation: slider 15s infinite ease-out;
+        animation: slide 15s infinite ease-out;
     }
 
     .carimgdesk{ display: none;}
-    
-    @keyframes slider{
+
+    @keyframes slide{
         0%{left: 0px;}
         20%{left: 0px;}
         30%{left: -400px;}
