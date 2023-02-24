@@ -7,10 +7,12 @@ body{
     background:white
 }
 
-header #capa img{
+body main header #desktop{
+    background-image: url(imagens/foodicacapa.jpeg);
     width: 100vw;
-    height: 430px;
 }
+body main header #phone{display: none;}
+body main header #desktop {display: block;}
 
 nav {
     background-color:white;
