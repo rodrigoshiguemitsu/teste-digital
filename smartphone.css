@@ -68,7 +68,7 @@
         width: 15%;
     }
     
-    .carrossel{
+    main .imgphonecar{
         max-width: 100vw;
          width: 400px;
          height: 250px;
@@ -78,20 +78,22 @@
          box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
     }
     
-    .carrossel ul{
+    main .imgphonecar ul{
         max-width: 100vw;
         display: flex;
         list-style: none;
         height: 250px;
     }
      
-    .carrossel li{
+    main .imgphonecar li{
         width: 100vw;
         position: relative;
-        animation: slide 15s infinite ease-out;
+        animation: slider 15s infinite ease-out;
     }
-     
-    @keyframes slide{
+
+    .carimgdesk{ display: none;}
+    
+    @keyframes slider{
         0%{left: 0px;}
         20%{left: 0px;}
         30%{left: -400px;}
