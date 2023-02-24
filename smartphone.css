@@ -67,7 +67,7 @@
     }
     
     #phoneimg {
-        max-width: 100vw;
+        max-width: 758px;
         width: 400px;
         height: 250px;
         /*outline: 3px solid black;*/
@@ -78,14 +78,14 @@
    }
    
    #phoneimg ul{
-       max-width: 100vw;
+       max-width: 758px;
        display: flex;
        list-style: none;
        height: 250px;
    }
     
    #phoneimg ul li img { 
-       width:100vw;
+       width:758px;
        position: relative;
        animation: slide 15s infinite ease-out;
    }

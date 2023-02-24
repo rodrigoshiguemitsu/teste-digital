@@ -93,7 +93,7 @@ main #phoneimg {display: none;}
 main #phoneimg ul{display: none;}
 main #phoneimg li img{display: none;}
  
-@keyframes slide{
+@keyframes slide {
     0%{left: 0px;}
     20%{left: 0px;}
     30%{left: -1070px;}
