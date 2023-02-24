@@ -7,29 +7,6 @@ body{
     background:white
 }
 
-header input{
-    width:50%;
-    display:absolute;
-    text-align: center;
-}
-header a {
-    background-color:rgba(0, 0, 0, 0.596);
-    margin: 0px;
-    padding: 0px;
-}
-header p a{
-    margin: 10px;
-    color: white;
-    text-decoration: none;
-    font-family: bold;
-    font-size: 1.5rem;
-}
-
-header p a:hover{
-    background-color: black;
-    color: white;
-}
-
 header #capa img{
     width: 100vw;
     height: 430px;
