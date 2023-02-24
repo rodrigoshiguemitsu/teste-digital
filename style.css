@@ -64,7 +64,7 @@ nav a {
     width: 15%;
 }
 
-main .carimgdesk{
+.carimgdesk{
     max-width: 100vw;
      width: 998px;
      height: 400px;
@@ -74,14 +74,14 @@ main .carimgdesk{
      box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
 }
 
-main .carimgdesk ul{
+.carimgdesk ul{
     max-width: 100vw;
     display: flex;
     list-style: none;
     height: 225px;
 }
  
-main .carimgdesk li{
+.carimgdesk li img{
     width: 100vw;
     position: relative;
     animation: slide 15s infinite ease-out;
@@ -92,10 +92,10 @@ main .carimgdesk li{
 @keyframes slide{
     0%{left: 0px;}
     20%{left: 0px;}
-    30%{left: -1040px;}
-    50%{left: -1040px;}
-    60%{left: -2050px;}
-    90%{left: -2050px;} 
+    30%{left: -1070px;}
+    50%{left: -1070px;}
+    60%{left: -2110px;}
+    90%{left: -2110px;} 
     100%{left: 0%;}
 }
 

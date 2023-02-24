@@ -4,8 +4,6 @@
 
     body {
         font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-        padding: 0;
         background:white
     }
     main {
@@ -69,7 +67,7 @@
     }
     
     .imgphonecar{
-        max-width: 100vw;
+         max-width: 100vw;
          width: 400px;
          height: 250px;
          /*outline: 3px solid black;*/
@@ -85,21 +83,21 @@
         height: 250px;
     }
      
-    .imgphonecar li{
-        width: 100vw;
+    .imgphonecar li img { 
+        width:100vw;
         position: relative;
         animation: slide 15s infinite ease-out;
     }
 
     .carimgdesk{ display: none;}
 
-    @keyframes slide{
+    @keyframes slide {
         0%{left: 0px;}
         20%{left: 0px;}
         30%{left: -400px;}
         50%{left: -400px;}
-        60%{left: -800px;}
-        90%{left: -800px;} 
+        60%{left: -200px;}
+        90%{left: -200px;} 
         100%{left: 0%;}
     }
     
